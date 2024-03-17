@@ -6,6 +6,8 @@ Git hub setup
 
 Push changes from local computer to github repository:
 -----------------------------------------------------
+Open the git bash application and perform below commands
+
 1. To check current working dirctory
 AzureAD+Sudarshan@ElbakaTech MINGW64 ~
 $ pwd
