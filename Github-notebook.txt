@@ -23,9 +23,38 @@ $ pwd
 /c/Users/Sudarshan/Desktop
 
 3. Now you are in "Desktop" directory. You can clone your repository here. Below is command to clone.
-NOTE: "https://github.com/vinodsrirama006/my-notes.git" this URL you will get in github respository > clone section
+NOTE: "https://github.com/vinodsrirama006/my-notes.git" this URL you will get in github respository > code section
 
 AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop
 $ git clone https://github.com/vinodsrirama006/my-notes.git
 
+4.Once your repository is cloned(Downloded) go inside the repository and make changes you want to make.
+
+5.To check the files your modifides enter git status command. all modified or new added or deleted files shown in red colour.
+
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop
+$ cd my-notes
+
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop/my-notes (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github-notebook.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop/my-notes (main)
+
+6. Add that file into staging area below is the command.
+git add Github-notebook.txt
+
+7.Provide commit message for your added file below is the command.
+git commit -m "message name"
+
+8.To push your changes from local computer to githug perform below command.
+git push origin main
 
