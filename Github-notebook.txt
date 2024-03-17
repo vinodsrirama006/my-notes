@@ -3,3 +3,27 @@ Git hub setup
 1.I need to create an account in Github  https://github.com
 2.Once, Account is created i need to  create a repository -- https://github.com/new
 3.I need to install Git cli in my local computer. This git cli helps me to pushes changes from my local computer to github.
+
+Push changes from local computer to github repository:
+-----------------------------------------------------
+1. To check current working dirctory
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~
+$ pwd
+/c/Users/Sudarshan
+
+
+2. To change location to from "/c/Users/Sudarshan" to "/c/Users/Sudarshan/Desktop"
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~
+$ cd /c/Users/Sudarshan/Desktop
+
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop
+$ pwd
+/c/Users/Sudarshan/Desktop
+
+3. Now you are in "Desktop" directory. You can clone your repository here. Below is command to clone.
+NOTE: "https://github.com/vinodsrirama006/my-notes.git" this URL you will get in github respository > clone section
+
+AzureAD+Sudarshan@ElbakaTech MINGW64 ~/Desktop
+$ git clone https://github.com/vinodsrirama006/my-notes.git
+
+
