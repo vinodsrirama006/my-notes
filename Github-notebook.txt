@@ -1,0 +1,5 @@
+Git hub setup
+--------------
+1.I need to create an account in Github  https://github.com
+2.Once, Account is created i need to  create a repository -- https://github.com/new
+3.I need to install Git cli in my local computer. This git cli helps me to pushes changes from my local computer to github.
